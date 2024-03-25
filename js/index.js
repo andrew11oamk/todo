@@ -1,4 +1,4 @@
-const BACKEND_ROOT_URL = "http://localhost:3001";
+const BACKEND_ROOT_URL = "https://todo-7b8l.onrender.com";
 import { Todos } from "./class/todo.js";
 
 const list = document.querySelector("ul");
