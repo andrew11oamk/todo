@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
     })
 })
 
-app.post("/new", (req, res) => {
+app.post('/new', (req, res) => {
     const pool = openDb()
 
     pool.query('insert into task (description) values ($1) returning *',
